@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	background: #efeff4;
+	color: #666666;
+	font-size: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* 页头 */
+header {
+	width: 100%;
+	background: #f5f5f5;
+	height: 6.5rem;
+	line-height: 6.5rem;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	overflow: hidden;
+	border-bottom:0.1rem solid #E8E8E8;
+}
+
+.one {
+	float: left;
+	padding-left: 2rem;
+}
+
+.one i {
+	font-weight: 600;
+	color: #A3A3A3;
+	font-size: 2.2rem;
+}
+
+.one span {
+	font-size: 2.2rem;
+}
+
+.two {
+	float: right;
+	padding-right: 2rem;
+}
+
+.two i {
+	font-weight: ;
+	font-size: 2.5rem;
+}
+
+/* 物品详情 */
+.three{
+	width: 100%;
+	margin-bottom: 7rem;
+	margin-top:6.3rem;
+}
+table,thead{
+	width: 100%;
+}
+tr{
+	background: #FFFFFF;
+	width: 100%;
+	line-height: 6rem;
+	display: flex;
+	flex-direction: row;
+	margin-bottom:1rem;
+}
+th,td{
+	width: 16.666666%;
+}
+td{
+	text-align: center;
+	height: 10rem;
+	line-height: 10rem;
+}
+td img{
+	width: 100%;
+	vertical-align:middle;
+}
+tbody .btn{
+	width: 3rem;
+	height: 3rem;
+}
+
+/* 合计 */
+.five{
+	width: 100%;
+	background: #f5f5f5;
+	height: 7.3rem;
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 7.3rem;
+	left: 0;
+	z-index: 100;
+	display: flex;
+}
+.five1{
+	width: 60%;
+	line-height: 7.3rem;
+	font-size:2rem;
+	box-sizing: border-box;
+	padding-left: 2rem;
+}
+.five1 span{
+	color: #FF4141;
+}
+.five2{
+	width: 40%;
+	line-height: 7.3rem;
+	text-align:center;
+	background: #00CC7D;
+	color: #FFFFFF;
+	font-size:2rem;
+}
+
+/* 页脚*/
+footer {
+	width: 100%;
+	background: #f5f5f5;
+	height: 7.3rem;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid #CCCCCC;
+}
+
+footer div {
+	width: 25%;
+	height: 7.3rem;
+	padding-top: 0.8rem;
+}
+
+footer div p {
+	font-size: 1.4rem;
+}
+
+#s1 {
+	font-size: 3rem;
+}
+
+.ten {
+	color: #F58611;
+}

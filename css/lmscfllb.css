@@ -1,0 +1,216 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	background: #efeff4;
+	color: #666666;
+	font-size: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* 页头搜索 */
+header {
+	width: 100%;
+	background: #f5f5f5;
+	height: 6rem;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+}
+
+.one {
+	width: 15%;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+
+#span1 {
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: #A0A0A0;
+}
+
+.one1 {
+	height: 3.8rem;
+	width: 70%;
+	text-align: left;
+	margin-top: 1.1rem;
+	background: #e6e6e6;
+	color: #999999;
+	border-radius: 0.3rem;
+	line-height: 3.8rem;
+}
+
+#span2 {
+	font-size: 2.3rem;
+	padding-left: 1.5rem;
+}
+
+#btn {
+	border: none;
+	height: 3.8rem;
+	background: #e6e6e6;
+	outline: none;
+	font-size: 1.7rem;
+	padding-left: 1rem;
+	vertical-align: top;
+}
+
+.one2 {
+	width: 15%;
+	height: 5.5rem;
+	text-align: center;
+	line-height: 5.5rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	position: relative;
+}
+
+#span3 {
+	font-size: 3rem;
+}
+
+.one2-1 {
+	display: inline-block;
+	width: 1.8rem;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	text-align: center;
+	color: #FFFFFF;
+	background: #00CC7D;
+	border-radius: 50%;
+	position: absolute;
+	top: 2.2rem;
+	left: 4rem;
+}
+
+/* 正文 */
+section {
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 6.3rem;
+	margin-bottom: 0.5rem;
+}
+
+.two {
+	display: flex;
+	flex-direction: row;
+}
+
+.two1 {
+	flex: 1;
+	height: 6rem;
+	line-height: 6rem;
+	text-align: center;
+}
+
+.two1 p {
+	font-size: 1.6rem;
+}
+
+.two1 p i {
+	vertical-align: middle;
+}
+
+/* 列表 */
+.three {
+	width: 100%;
+	margin-top: 6.3rem;
+}
+
+table,
+thead {
+	width: 100%;
+}
+
+tr {
+	background: #FFFFFF;
+	width: 100%;
+	line-height: 6rem;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1rem;
+}
+
+th,
+td {
+	width: 20%;
+}
+
+td {
+	text-align: center;
+	height: 10rem;
+	line-height: 10rem;
+}
+
+td img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+/* 购物车按钮 */
+.four {
+	width: 100%;
+	margin-bottom: 9rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#four1 {
+	width: 90%;
+	height: 6rem;
+	text-align: center;
+	color: #FFFFFF;
+	font-size:1.8rem;
+	line-height: 6rem;
+	background: #25CB83;
+	outline: none;
+	border: none;
+
+}
+
+/* 页脚*/
+footer {
+	width: 100%;
+	background: #f5f5f5;
+	height: 7.3rem;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid #CCCCCC;
+}
+
+footer div {
+	width: 25%;
+	height: 7.3rem;
+	padding-top: 0.8rem;
+}
+
+footer div p {
+	font-size: 1.4rem;
+}
+
+#s1 {
+	font-size: 3rem;
+}
+
+.ten {
+	color: #F58611;
+}

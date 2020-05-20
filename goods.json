@@ -1,0 +1,33 @@
+			[{
+				"id": 11,
+				"name": "鱼香肉丝",
+				"price": 12,
+				"url":"img/food1.jpg"
+			  }, {
+				"id": 22,
+				"name": "宫保鸡丁",
+				"price": 14,
+				"url":"img/food2.jpg"
+			  }, {
+				"id": 34,
+				"name": "土豆丝",
+				"price": 10,
+				"url":"img/food1.jpg"
+			  }, {
+				"id": 47,
+				"name": "米饭",
+				"price": 10,
+				"url":"img/food2.jpg"
+			  },{
+				"id": 49,
+				"name": "蚂蚁上树",
+				"price": 13,
+				"url":"img/food1.jpg"
+			  },
+			  {
+				"id": 50,
+				"name": "腊肉炒蒜薹",
+				"price": 15,
+				"url":"img/food2.jpg"
+			  }
+		]

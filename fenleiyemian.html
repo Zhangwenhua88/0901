@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>利民商城分类</title>
+		<link rel="stylesheet" type="text/css" href="css/lmscfl.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/iconfont.css"/>
+	</head>
+	<body>
+		<!-- 页头搜索 -->
+		<header>
+			<div class="one">
+				<span id="span1" class="icon iconfont icon-fanhui"></span>
+			</div>
+			<div class="one1">
+				<span id="span2" class="icon iconfont icon-search"></span>
+				<input type="text" name="" id="btn" value="" placeholder="输入您要搜索的商品" />
+			</div>
+			<div class="one2">
+				<span id="span3" class="icon iconfont icon-iconfonterweima"></span>
+			</div>
+		</header>
+		<!-- 分类正文 -->
+		<section>
+			<div class="two">
+				<div class="two1">
+					<p class="three">家居家纺</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+				<div class="two2">
+					<p class="three">3C数码</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+			</div>
+			<div class="two">
+				<div class="two1">
+					<p class="three">家用电器</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+				<div class="two2">
+					<p class="three">厨房小电</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+			</div>
+			<div class="two">
+				<div class="two1">
+					<p class="three">零食小吃</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+				<div class="two2">
+					<p class="three">酒水饮料</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+			</div>
+			<div class="two">
+				<div class="two1">
+					<p class="three">个护健康</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+				<div class="two2">
+					<p class="three">生活电器</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+			</div>
+			<div class="two">
+				<div class="two1">
+					<p class="three">服饰</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+				<div class="two2">
+					<p class="three">五金家装</p>
+					<p><img src="upload/18.jpg" ></p>
+				</div>
+			</div>
+		</section>
+		<!-- 页脚 -->
+		<footer>
+			<div id="btn0">
+				<span class="icon iconfont" id="s1">&#xe9ce;</span>
+				<p>首页</p>
+			</div>
+			<div class="ten" id="btn1">
+				<span class="icon iconfont" id="s1">&#xe641;</span>
+				<p>分类</p>
+			</div>
+			<div id="btn2">
+				<span class="icon iconfont" id="s1">&#xe618;</span>
+				<p>购物车</p>
+			</div>
+			<div id="btn3">
+				<span class="icon iconfont" id="s1">&#xe617;</span>
+				<p>我的</p>
+			</div>
+		</footer>
+	</body>
+</html>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/remstyle.js"></script>
+<script src="js/tiaozhuan.js"></script>
+<script type="text/javascript">
+	var btn=document.getElementsByClassName('two1')
+	for(var i=0; i<btn.length; i++){
+		var num=btn[i]
+		num.onclick=function(){
+			window.open("fenleiliebiao.html","_self")
+		}
+	};
+	var btn1=document.getElementsByClassName('two2')
+	for(var i=0; i<btn1.length; i++){
+		var sum=btn1[i]
+		sum.onclick=function(){
+			window.open("fenleiliebiao.html","_self")
+		}
+	};
+	document.getElementById('span1').onclick=function(){
+		window.open("lmscsy.html","_self")
+	};
+</script>

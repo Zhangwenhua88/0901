@@ -1,0 +1,279 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	background: #efeff4;
+	color: #666666;
+	font-size: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* 页头搜索 */
+header {
+	width: 100%;
+	background: #f5f5f5;
+	height: 6rem;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	border-bottom:0.1rem solid #DFDFDF;
+}
+
+.one {
+	width: 20%;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	padding-top: 0.8rem;
+}
+
+#span1 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #A0A0A0;
+	margin-left: -3rem;
+}
+
+.one1 {
+	height: 5.5rem;
+	width: 20%;
+	padding-top: 0.5rem;
+	line-height: 5.5rem;
+	font-size: 2rem;
+	color: #00CC7D;
+}
+
+.one1 span {
+	display: inline-block;
+	width: 5.5rem;
+	height: 5rem;
+	border-bottom: 3px solid #00CC7D;
+	margin-left: -3rem;
+}
+
+.one3 {
+	height: 5.5rem;
+	width: 20%;
+	box-sizing: border-box;
+	padding-top: 0.5rem;
+	line-height: 5.5rem;
+	font-size: 2rem;
+	color: #999999;
+	text-align: left;
+	padding-left: 2rem;
+}
+
+.one4 {
+	height: 5.5rem;
+	width: 20%;
+	padding-top: 0.5rem;
+	line-height: 5.5rem;
+	font-size: 2rem;
+	color: #999999;
+}
+
+#span2 {
+	font-size: 2.3rem;
+	padding-left: 1.5rem;
+}
+
+#btn {
+	border: none;
+	height: 3.8rem;
+	background: #e6e6e6;
+	outline: none;
+	font-size: 1.7rem;
+	padding-left: 1rem;
+	vertical-align: top;
+}
+
+.one2 {
+	width: 20%;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	padding-top: 0.5rem;
+}
+
+#span3 {
+	font-size: 3rem;
+	position: relative;
+}
+
+.one2-1 {
+	display: inline-block;
+	width: 1.8rem;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	font-size: 0.5rem;
+	text-align: center;
+	color: #FFFFFF;
+	background: #00CC7D;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.6rem;
+	left: 2.2rem;
+}
+
+/* 大图 */
+.swiper-container {
+	width: 100%px;
+	margin-top:6.2rem;
+}
+
+img {
+	width: 100%;
+}
+/* 小米MAX */
+.two{
+	width: 100%;
+	background: #FFFFFF;
+	display: flex;
+	border-bottom:0.1rem solid #DFDFDF;
+}
+.two1{
+	width: 75%;
+	box-sizing: border-box;
+	padding: 1.5rem;
+}
+.two1 p{
+	font-size: 2rem;
+	color: #414141;
+}
+.two1 span{
+	color: #FF9100;
+	font-size:1.8rem;
+	display: inline-block;
+	margin-top: 1rem;
+}
+.two2{
+	width: 25%;
+	text-align: center;
+}
+.two2-1{
+	margin-top: 2rem;
+	font-size:1.4rem;
+	color:#8f8f94;
+	border-left: 1px solid #CCCCCC;
+}
+.two2 i{
+	font-size: 3rem;
+}
+.two2-2{
+	color: #8f8f94;
+	font-size:1.8rem;
+	display: inline-block;
+	margin-top: 0.8rem;
+}
+/* 商品详情 评价 */
+.three{
+	width: 100%;
+	height: 6rem;
+	line-height:6rem;
+	background:#FFFFFF;
+	display: flex;
+	margin-top:1rem;
+	border-top:0.1rem solid #DFDFDF;
+	border-bottom:0.1rem solid #DFDFDF;
+}
+
+.three1{
+	width: 90%;
+	font-size:2rem;
+	box-sizing:border-box;
+	padding-left: 2rem;
+	color: #333333;
+}
+#three2{
+	color: #C9C4C4;
+	font-size:2.3rem;
+}
+.three3{
+	margin-bottom: 16rem;
+}
+/* 立即购买 */
+.five {
+	width: 100%;
+	background: #f5f5f5;
+	height: 7.3rem;
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 7.3rem;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	border-top:0.1rem solid #DFDFDF;
+}
+.five span{
+	font-size:2rem;
+}
+.five1,
+.five3 {
+	width: 15%;
+	box-sizing: border-box;
+	padding-top:1.5rem;
+	background: #FFFFFF;
+	border-right:0.1rem solid #CCCCCC;
+	text-align: center;
+	font-size:1.4rem;
+	color: #333333;
+}
+.five4 {
+	width: 35%;
+	line-height: 7.3rem;
+	text-align: center;
+	background: #FF9100;
+	color: #FFFFFF;
+	font-size: 2rem;
+}
+
+.five2 {
+	width: 35%;
+	line-height: 7.3rem;
+	text-align: center;
+	background: #00CC7D;
+	color: #FFFFFF;
+	font-size: 2rem;
+}
+
+/* 页脚*/
+footer {
+	width: 100%;
+	background: #f5f5f5;
+	height: 7.3rem;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid #CCCCCC;
+}
+
+footer div {
+	width: 25%;
+	height: 7.3rem;
+	padding-top: 0.8rem;
+}
+
+footer div p {
+	font-size: 1.4rem;
+}
+
+#s1 {
+	font-size: 3rem;
+}
+
+.ten {
+	color: #F58611;
+}
